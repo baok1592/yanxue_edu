@@ -1,0 +1,98 @@
+
+@import url("./animated.css");	
+
+.ft12{font-size: 24rpx;}
+.ft14{font-size: 28rpx;}
+.ft16{font-size: 32rpx;}
+.ft18{font-size: 36rpx;}
+.ft20{font-size: 40rpx;}
+.ft22{font-size: 44rpx;}
+.ft24{font-size: 48rpx;}
+.ft28{font-size: 56rpx;}
+.ft32{font-size: 64rpx;}
+.ft36{font-size: 72rpx;}
+.ft40{font-size: 80rpx;}
+.ft50{font-size: 100rpx;}
+.ft60{font-size: 120rpx;}
+.ft80{font-size: 160rpx;}
+
+/* 字体颜色 */
+.cl-w{color:#FFFFFF;}
+.cl-w9{color:rgba(255,255,255,0.9)}
+.cl-w8{color:rgba(255,255,255,0.8)}
+.cl-main{color:#2E2F33;}
+.cl-default{color:#000000;}
+.cl-info2{color:#5C5E66;}
+.cl-info{color:#666666;}
+.cl-placeholder{color:#CCCCCC;}
+.cl-light{color:#E4E6ED;}
+.cl-notice{color:#AEB2C1;}
+.cl-price{color:#FF3D3D;}
+
+.cl-yellow{color:#FFE5AD;}
+.cl-green{color:#00C657;}
+.cl-manage{color:#5E40FF;}
+.cl-orange{color:#FF6600}
+.cl-blue{color:#1890FF}
+
+.bg-w{background: #FFFFFF;}
+.bg-default{background: #F7F7F7;}
+.bg-manage{background: #5E40FF;}
+
+/*字体加粗*/
+.ftw400{font-weight: 400;}
+.ftw500{font-weight: 500;}
+.ftw600{font-weight: 600;}
+
+
+
+.mt2{margin-top: 4rpx;}
+.mt4{margin-top: 8rpx;}
+.mt5{margin-top: 10rpx;}
+.mt6{margin-top: 12rpx;}
+.mt7{margin-top: 15rpx;}
+.mt8{margin-top: 16rpx;}
+.mt10{margin-top: 20rpx;}
+.mt12{margin-top: 24rpx;}
+.mt14{margin-top: 28rpx;}
+.mt15{margin-top: 30rpx;}
+.mt16{margin-top: 32rpx;}
+.mt18{margin-top: 36rpx;}
+.mt20{margin-top: 40rpx;}
+.mt24{margin-top: 48rpx;}
+.mt25{margin-top: 50rpx;}
+.mt30{margin-top: 60rpx;}
+.mt32{margin-top: 64rpx;}
+
+.mt40{margin-top: 80rpx;}
+.mt60{margin-top: 120rpx;}
+
+.mb4{margin-bottom: 8rpx;}
+.mb5{margin-bottom: 10rpx;}
+.mb7{margin-bottom: 15rpx;}
+.mb10{margin-bottom: 20rpx;}
+.mb15{margin-bottom: 30rpx;}
+.mb16{margin-bottom: 32rpx;}
+.mb20{margin-bottom: 40rpx;}
+.mb24{margin-bottom: 48rpx;}
+.mb25{margin-bottom: 50rpx;}
+.mb30{margin-bottom: 60rpx;}
+
+.ml4{margin-left: 8rpx;}
+.ml5{margin-left: 10rpx;}
+.ml7{margin-left: 15rpx;}
+.ml10{margin-left: 20rpx;}
+.ml15{margin-left: 30rpx;}
+.ml20{margin-left: 40rpx;}
+.ml25{margin-left: 50rpx;}
+.ml30{margin-left: 60rpx;}
+.ml60{margin-left: 120rpx;}
+
+.mr5{margin-right: 10rpx;}
+.mr7{margin-right: 15rpx;}
+.mr10{margin-right: 20rpx;}
+.mr15{margin-right: 30rpx;}
+.mr20{margin-right: 40rpx;}
+.mr25{margin-right: 50rpx;}
+.mr30{margin-right: 60rpx;}
+.mr60{margin-right: 120rpx;}

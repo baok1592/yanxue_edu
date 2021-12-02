@@ -1,0 +1,15 @@
+{
+  "name": "ite",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "sortablejs": "1.12.0",
+    "uview-ui": "^1.8.3",
+    "vuedraggable": "2.24.3"
+  },
+  "devDependencies": {
+    "sortablejs": "1.12.0",
+    "uview-ui": "^1.8.3",
+    "vuedraggable": "2.24.3"
+  }
+}

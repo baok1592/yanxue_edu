@@ -1,0 +1,230 @@
+{
+	"easycom": {
+		"autoscan": true,
+		"custom": {
+					"^u-(.*)": "uview-ui/components/u-$1/u-$1.vue",
+					"^st-(.*)":"@/test-ui/components/ST-$1/ST-$1.vue"	
+		}
+	},
+	"pages": [ //pages数组中第一项表示应用启动页，参考：https://uniapp.dcloud.io/collocation/pages
+		{
+			"path": "pages/index/index",
+			"style": {
+				
+				    "navigationBarTitleText": "",
+				    "enablePullDownRefresh": true
+			}
+		} 
+        ,{
+            "path" : "pages/study_list/study_list",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "",
+                "enablePullDownRefresh": false
+            }
+            
+        },{
+            "path" : "pages/pic_list/pic_list",
+            "style" :{
+                "navigationBarTitleText": "",
+                "enablePullDownRefresh": true
+            }                                                                                    
+        } ,{
+            "path" : "pages/article_list/article_list",
+            "style" :{
+                "navigationBarTitleText": "",
+                "enablePullDownRefresh": true
+            }                                                                                    
+        } ,{
+			"path" : "pages/article_list/article/article",
+			"style" :{
+			    "navigationBarTitleText": "",
+			    "enablePullDownRefresh": false
+			}  
+		},{
+            "path" : "pages/teacher_list/teacher_list",	
+            "style" :{
+                "navigationBarTitleText": "",
+                "enablePullDownRefresh": true
+            }                                                                                    
+        }  ,{
+		     "path" : "pages/video/video",		
+		     "style" :{
+		         "navigationBarTitleText": "",
+		         "enablePullDownRefresh": false
+		     }                                                                                    
+		 } ,{
+		     "path" : "pages/user/us/us",
+		     "style" :{
+		         "navigationBarTitleText": "",
+		         "enablePullDownRefresh": false
+		     }                                                                                    
+		 } ,{
+		     "path" : "pages/user/usinfo/usinfo",
+		     "style" :{
+		         "navigationBarTitleText": "",
+		         "enablePullDownRefresh": false
+		     }                                                                                    
+		 } ,{
+		     "path" : "pages/study/evaluating/evaluating",	
+		     "style" :{
+		         "navigationBarTitleText": "",
+		         "enablePullDownRefresh": false
+		     }                                                                                    
+		 } 
+		 ,{
+		     "path" : "pages/order/order",		//订单
+		     "style" :{
+		         "navigationBarTitleText": "",
+		         "enablePullDownRefresh": true
+		     }                                                                                    
+		 } ,{
+		     "path" : "pages/order/detail/detail",		//订单详情
+		     "style" :{
+		         "navigationBarTitleText": "",
+		         "enablePullDownRefresh": false
+		     }                                                                                    
+		 }
+		 ,{
+		     "path" : "pages/teacher_list/teacher/info",	//教师信息
+		     "style" :{
+		         "navigationBarTitleText": "",
+		         "enablePullDownRefresh": true
+		     }                                                                                    
+		 },{	
+		     "path" : "pages/study/plan/plan",	//学习计划
+		     "style" :{
+		         "navigationBarTitleText": "",
+		         "enablePullDownRefresh": true
+		     }                                                                                    
+		 },{
+		      "path" : "pages/study/kcp/kcp",		//课程表
+		      "style" :{
+		          "navigationBarTitleText": "",
+		          "enablePullDownRefresh": false
+		      }                                                                                    
+		  },{
+		      "path" : "pages/study/kcp/info/info",	//课程信息
+		      "style" :{
+		          "navigationBarTitleText": "",
+		          "enablePullDownRefresh": false
+		      }                                                                                    
+		  } ,{
+            "path" : "pages/good/good_info",		//商品信息
+            "style" :{
+                "navigationBarTitleText": "",
+                "enablePullDownRefresh": false
+            }                                                                                    
+        } ,{
+            "path" : "pages/good/good_infoB/good_infoB",		//拼团信息
+            "style" :{
+                "navigationBarTitleText": "",
+                "enablePullDownRefresh": false
+            }                                                                                    
+        },{
+            "path" : "pages/user/index",		//我的
+            "style" :{
+                "navigationBarTitleText": "",
+                "enablePullDownRefresh": true
+            }                                                                                    
+        },
+		{
+		    "path" : "pages/user/adviser/adviser",		//请假
+		    "style" :{
+		        "navigationBarTitleText": "",
+		        "enablePullDownRefresh": false
+		    }                                                                                    
+		},{
+		    "path" : "pages/pay/pay",		//下单
+		    "style" :{
+		        "navigationBarTitleText": "",
+		        "enablePullDownRefresh": false
+		    }                                                                                    
+		},{
+		    "path" : "pages/study/studyplan/studyplan",		//学习计划
+		    "style" :{
+		        "navigationBarTitleText": "学习计划",
+		        "enablePullDownRefresh": true
+		    }                                                                                    
+		},
+		{
+		    "path" : "pages/user/adviser/vacate/vacate_list",		//请假列表
+		    "style" :{
+		        "navigationBarTitleText": "请假列表",
+		        "enablePullDownRefresh": false
+		    }                                                                                    
+		},
+		{
+		    "path" : "pages/user/userset/index",		//个人中心
+		    "style" :{
+		        "navigationBarTitleText": "个人中心",
+		        "enablePullDownRefresh": false
+		    }                                                                                    
+		}
+		
+		
+		
+		
+    ],
+	"subPackages":[
+		{
+			"root":"teacher",
+			"pages":[
+				{
+					"path": "teachercms/index",
+					"style": {
+						 "navigationBarTitleText": "教师端",
+						 "enablePullDownRefresh":true
+					}
+				},
+				{
+					"path": "teachercms/vacate_list/index",
+					"style": {
+						 "navigationBarTitleText": "请假列表"
+					}
+				},
+				{
+					"path": "teachercms/order_teacher/order_teacher",
+					"style": {
+						 "navigationBarTitleText": "修改订单",
+						 "enablePullDownRefresh":true
+					}
+				}
+			]
+		}
+	],
+	"tabBar": {
+		"color": "#666666",
+		"selectedColor": "#00c657",
+		"borderStyle": "white",
+		"backgroundColor": "#ffffff",
+		"list": [
+			{
+				"pagePath": "pages/index/index",
+				"iconPath": "static/icon/yzy_sy.png",
+				"selectedIconPath": "static/icon/yzy_sys.png",
+				"text": "首页"
+			},
+			{
+				"pagePath":"pages/pic_list/pic_list",
+				"iconPath": "static/icon/study.png",
+				"selectedIconPath": "static/icon/studys.png",
+				"text": "课程"
+			},
+			
+			{
+				"pagePath": "pages/user/index",
+				"iconPath": "static/icon/yzy_wd.png",
+				"selectedIconPath": "static/icon/yzy_wds.png",
+				"text": "我的"
+			}
+		]
+	},
+	"globalStyle": {
+		"navigationBarTextStyle": "white",
+		"navigationBarTitleText": "uni_sortable_demo",
+		"navigationBarBackgroundColor": "#0055ff",
+		"backgroundColor": "#F8F8F8"
+	}
+	
+}
